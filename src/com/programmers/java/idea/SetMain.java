@@ -1,4 +1,4 @@
-package com.programmers.java;
+package com.programmers.java.idea;
 
 import java.util.HashSet;
 import java.util.Set;
