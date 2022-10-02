@@ -99,7 +99,7 @@ public class FsMain {
 //                    .filter(l->!l.isVisited())       //방문했는지
 //                    .filter(l -> !queue.contains(l)) //큐에 이미 있는지.
 //                    .forEach(queue::offer);  //큐에 연결된 노드들 정리.
-
+//
 //            for을 활용한 스트림과 동일한 문구
 //            이번 반복에서 꺼낸 노드의 연결된 노드들을 하나씩 꺼내 반복하며 삽입했던 큐에 있을 경우 continue해 반복하지 않는다.
 //            for(Node item : n.links){
