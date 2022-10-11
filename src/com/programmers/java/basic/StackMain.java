@@ -1,4 +1,4 @@
-package com.programmers.java.idea;
+package src.com.programmers.java.basic;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -16,7 +16,6 @@ public class StackMain {
         System.out.println(list); // 큐
         list.poll();
         System.out.println(list); // 큐
-
 
 
     }
