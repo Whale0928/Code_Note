@@ -32,7 +32,7 @@ public class Budget {
 
         // 최대 값을 구해야함. == 정렬로 쉽게 해결 가능할 것 같다.
 
-        int answer =0
+        int answer =0;
 
         //1. 배열을 오름차 순으로 정렬.
         Arrays.sort(d);
