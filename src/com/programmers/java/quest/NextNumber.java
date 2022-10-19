@@ -20,6 +20,7 @@ public class NextNumber {
             int reuslt =    new NextNumber().solution(78);
            System.out.println("reuslt = " + reuslt);
     }
+
     public int solution(int n) {
         // 1. n 보다 큰 수이면서 . n과 1의 개수가 동일하다.
         // 2. 조건을 만족하면서  . "가장 작은 수"
