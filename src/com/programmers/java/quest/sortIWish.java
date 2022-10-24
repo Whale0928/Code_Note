@@ -40,15 +40,15 @@ public class sortIWish {
 
     public String[] solution(String[] strings, int n) {
         String[] answer = new String[strings.length];
-        //key : value로 다루기 위해 map을 활용
-        Map<Character,String> map = new HashMap<>();
+        //key : value 다루기 위해 map을 활용
+        Map<String,Character> map = new HashMap<>();
 
         for(String s : strings){
-            map.put(s.charAt(n),s);
+            map.put(s,s.charAt(n));
         }
-
-        List<Character> list = map.keySet().stream().sorted(Character::compareTo).collect(Collectors.toList());
-        for(int i=0; i<strings.length; i++) answer[i] = map.get(list.get(i));
+        map.values().stream().sorted(Character::compareTo);
+        List<String> list = map.keySet().stream().sorted(String::compareTo).collect(Collectors.toList());
+        for(int i=0; i<strings.length; i++) answer[i] = list.get(i);
 
         return answer;
     }
