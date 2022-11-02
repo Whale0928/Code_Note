@@ -1,4 +1,4 @@
-package src.com.programmers.java.quest;
+package main.java.LEVEL1;
 
 
 import java.util.Arrays;

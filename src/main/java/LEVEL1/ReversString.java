@@ -1,4 +1,4 @@
-package com.programmers.java.str;
+package main.java.LEVEL1;
 
 import java.util.ArrayList;
 import java.util.Scanner;

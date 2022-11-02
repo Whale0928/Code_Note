@@ -1,4 +1,4 @@
-package src.com.programmers.java.quest;
+package main.java.LEVEL1;
 
 public class Plus_yin_and_yang{
     public static void main(String[] args) {
